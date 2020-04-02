@@ -11,6 +11,10 @@ import java.util.concurrent.*;
  */
 public class FutureTaskDemo {
 
+    //阻塞式结果返回
+    // 无法链式多个Future
+    // 无法合并多个Future结果
+    // 缺少异常处理
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         ExecutorService executorService = Executors.newCachedThreadPool();
 
