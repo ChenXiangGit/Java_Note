@@ -6,15 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
-        <module name="oauth" />
         <module name="gateway" />
+        <module name="jwt-auth" />
+        <module name="common" />
         <module name="order" />
+        <module name="jwt-order" />
+        <module name="micro-user" />
+        <module name="oauth" />
+        <module name="micro-order" />
+        <module name="member" />
+        <module name="micro-eureka" />
+        <module name="micro-gateway" />
+        <module name="micro-auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="11" />
       <module name="gateway" target="11" />
+      <module name="jwt-auth" target="11" />
+      <module name="jwt-order" target="11" />
+      <module name="member" target="11" />
+      <module name="micro-auth" target="11" />
+      <module name="micro-eureka" target="11" />
+      <module name="micro-gateway" target="11" />
+      <module name="micro-order" target="11" />
+      <module name="micro-user" target="11" />
       <module name="oauth" target="11" />
       <module name="order" target="11" />
     </bytecodeTargetLevel>
@@ -23,6 +39,14 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="jwt-auth" options="-parameters" />
+      <module name="jwt-order" options="-parameters" />
+      <module name="member" options="-parameters" />
+      <module name="micro-auth" options="-parameters" />
+      <module name="micro-eureka" options="-parameters" />
+      <module name="micro-gateway" options="-parameters" />
+      <module name="micro-order" options="-parameters" />
+      <module name="micro-user" options="-parameters" />
       <module name="oauth" options="-parameters" />
       <module name="order" options="-parameters" />
     </option>

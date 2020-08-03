@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.meifute.restructure.mmauth.config.RedisAutoConfig

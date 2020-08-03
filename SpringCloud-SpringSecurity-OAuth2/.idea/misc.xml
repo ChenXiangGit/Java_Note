@@ -7,9 +7,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/oauth/pom.xml" />
         <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/member/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt-order/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-order/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-user/pom.xml" />
       </list>
     </option>
   </component>

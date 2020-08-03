@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <property name="now" value="now()" dbms="mysql,h2"/>
+    <property name="autoIncrement" value="true" dbms="mysql,h2,postgresql,oracle"/>
+
+    <changeSet id="201910191659001" author="crawler">
+        <sqlFile path="classpath:liquibase/init/init.sql" encoding="UTF-8"/>
+    </changeSet>
+
+    <changeSet id="201910191659002" author="crawler">
+        <createTable tableName="order_test">
+            <column name="id" type="bigint" remarks="id">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="item_name" type="varchar(30)" remarks="商品名称"/>
+            <column name="amount" type="decimal(10,2)" remarks="金额"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="202004021440001" author="crawler">
+        <addColumn tableName="order_test">
+            <column name="create_date" type="datetime" remarks="创建时间" defaultValue="${now}"/>
+            <column name="update_date" type="datetime" remarks="更新时间" defaultValue="${now}"/>
+            <column name="version" type="int" remarks="版本号" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+            <column name="deleted" type="int" remarks="逻辑删除字段 0未删除 1已删除" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+        </addColumn>
+    </changeSet>
+
+</databaseChangeLog>

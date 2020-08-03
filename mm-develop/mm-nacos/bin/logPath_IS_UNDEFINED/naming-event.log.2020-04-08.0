@@ -1,0 +1,360 @@
+2020-04-08 12:58:35,205 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8804@DEFAULT@DEFAULT_GROUP@@mm-auth, region: unknown, msg: client timeout after 15000, last beat: 1586321207650
+
+2020-04-08 12:58:35,205 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8091@default@DEFAULT_GROUP@@serverAddr, region: unknown, msg: client timeout after 15000, last beat: 1586321208614
+
+2020-04-08 12:58:35,205 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8802@DEFAULT@DEFAULT_GROUP@@mm-trade, region: unknown, msg: client timeout after 15000, last beat: 1586321208361
+
+2020-04-08 12:58:35,205 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8801@DEFAULT@DEFAULT_GROUP@@mm-user, region: unknown, msg: client timeout after 15000, last beat: 1586321207866
+
+2020-04-08 12:58:35,244 INFO service: DEFAULT_GROUP@@mm-auth {POS} {IP-ENABLED} valid: 192.168.50.46:8804@DEFAULT, region: unknown, msg: client beat ok
+
+2020-04-08 12:58:35,244 INFO service: DEFAULT_GROUP@@mm-user {POS} {IP-ENABLED} valid: 192.168.50.46:8801@DEFAULT, region: unknown, msg: client beat ok
+
+2020-04-08 12:58:35,276 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.50.46:8091:unknown:default_1.0_false_false_default]
+
+2020-04-08 12:58:35,276 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 
+
+2020-04-08 12:58:35,277 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:35,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 12:58:35,277 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:35,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 12:58:35,277 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:35,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 
+
+2020-04-08 12:58:35,277 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:35,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 
+
+2020-04-08 12:58:35,277 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 12:58:35,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 
+
+2020-04-08 12:58:35,277 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 12:58:35,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 
+
+2020-04-08 12:58:35,280 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 
+
+2020-04-08 12:58:35,280 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 
+
+2020-04-08 12:58:35,638 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:35,638 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 192.168.50.46:8802_true,
+
+2020-04-08 12:58:35,638 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:35,639 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 192.168.50.46:8802_true,
+
+2020-04-08 12:58:35,878 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.50.46:8091:unknown:default_1.0_true_false_default]
+
+2020-04-08 12:58:35,878 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 192.168.50.46:8091_true,
+
+2020-04-08 12:58:40,278 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:40,278 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 12:58:40,279 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:40,280 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 12:58:40,361 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:40,361 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 192.168.50.46:8804_true,
+
+2020-04-08 12:58:40,362 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 12:58:40,362 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 192.168.50.46:8804_true,
+
+2020-04-08 13:52:52,170 INFO DEFAULT_GROUP@@micro-job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8806:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:52:52,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@micro-job, ips: 192.168.50.46:8806_true,
+
+2020-04-08 13:53:35,323 INFO DEFAULT_GROUP@@micro-job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8806:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:53:35,323 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@micro-job, ips: 
+
+2020-04-08 13:53:41,541 INFO DEFAULT_GROUP@@micro-job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8806:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:53:41,542 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@micro-job, ips: 192.168.50.46:8806_true,
+
+2020-04-08 13:54:05,872 INFO DEFAULT_GROUP@@micro-job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8806:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:54:05,872 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@micro-job, ips: 
+
+2020-04-08 13:54:12,253 INFO DEFAULT_GROUP@@mm-job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8806:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:54:12,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-job, ips: 192.168.50.46:8806_true,
+
+2020-04-08 13:58:18,980 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:58:18,980 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 
+
+2020-04-08 13:58:18,980 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:58:18,980 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 
+
+2020-04-08 13:59:16,542 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:59:16,542 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 13:59:16,542 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 13:59:16,542 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 13:59:16,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 13:59:16,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 14:05:59,578 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:05:59,578 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 
+
+2020-04-08 14:05:59,578 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:05:59,578 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 
+
+2020-04-08 14:06:08,651 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:06:08,651 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 14:06:08,651 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:06:08,651 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 14:06:08,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 14:06:08,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 14:06:14,510 INFO DEFAULT_GROUP@@mm-job {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8806:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:06:14,510 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-job, ips: 
+
+2020-04-08 14:06:27,337 INFO DEFAULT_GROUP@@mm-job {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8806:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:06:27,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-job, ips: 192.168.50.46:8806_true,
+
+2020-04-08 14:35:15,552 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:35:15,552 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 14:35:15,552 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:35:15,552 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 14:35:30,330 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:35:30,330 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 14:35:30,330 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:35:30,330 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 14:35:30,330 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 14:35:30,330 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 14:40:27,514 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:40:27,514 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 14:40:27,514 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:40:27,514 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 14:41:44,582 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:41:44,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 14:41:44,582 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 14:41:44,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 14:41:44,583 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 14:41:44,583 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 15:36:21,954 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8806@DEFAULT@DEFAULT_GROUP@@mm-job, region: unknown, msg: client timeout after 15000, last beat: 1586331096908
+
+2020-04-08 15:36:21,957 INFO service: DEFAULT_GROUP@@mm-job {POS} {IP-ENABLED} valid: 192.168.50.46:8806@DEFAULT, region: unknown, msg: client beat ok
+
+2020-04-08 19:14:27,656 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8802@DEFAULT@DEFAULT_GROUP@@mm-trade, region: unknown, msg: client timeout after 15000, last beat: 1586342690924
+
+2020-04-08 19:14:27,656 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8800@DEFAULT@DEFAULT_GROUP@@mm-gateway, region: unknown, msg: client timeout after 15000, last beat: 1586342691504
+
+2020-04-08 19:14:27,656 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8801@DEFAULT@DEFAULT_GROUP@@mm-user, region: unknown, msg: client timeout after 15000, last beat: 1586342691155
+
+2020-04-08 19:14:27,656 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8091@default@DEFAULT_GROUP@@serverAddr, region: unknown, msg: client timeout after 15000, last beat: 1586342692516
+
+2020-04-08 19:14:27,655 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8804@DEFAULT@DEFAULT_GROUP@@mm-auth, region: unknown, msg: client timeout after 15000, last beat: 1586342691104
+
+2020-04-08 19:14:27,725 INFO service: DEFAULT_GROUP@@mm-auth {POS} {IP-ENABLED} valid: 192.168.50.46:8804@DEFAULT, region: unknown, msg: client beat ok
+
+2020-04-08 19:14:27,724 INFO service: DEFAULT_GROUP@@mm-user {POS} {IP-ENABLED} valid: 192.168.50.46:8801@DEFAULT, region: unknown, msg: client beat ok
+
+2020-04-08 19:14:27,724 INFO service: DEFAULT_GROUP@@mm-gateway {POS} {IP-ENABLED} valid: 192.168.50.46:8800@DEFAULT, region: unknown, msg: client beat ok
+
+2020-04-08 19:14:27,725 INFO service: DEFAULT_GROUP@@mm-trade {POS} {IP-ENABLED} valid: 192.168.50.46:8802@DEFAULT, region: unknown, msg: client beat ok
+
+2020-04-08 19:14:27,774 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:27,775 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 19:14:27,775 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:27,775 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 19:14:27,775 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:27,775 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 
+
+2020-04-08 19:14:27,775 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:27,775 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 
+
+2020-04-08 19:14:27,776 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:27,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 
+
+2020-04-08 19:14:27,776 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:27,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 
+
+2020-04-08 19:14:27,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 19:14:27,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 19:14:27,776 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.50.46:8091:unknown:default_1.0_false_false_default]
+
+2020-04-08 19:14:27,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 
+
+2020-04-08 19:14:27,776 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:27,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 
+
+2020-04-08 19:14:27,776 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:27,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 
+
+2020-04-08 19:14:28,089 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.50.46:8091:unknown:default_1.0_true_false_default]
+
+2020-04-08 19:14:28,089 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 192.168.50.46:8091_true,
+
+2020-04-08 19:14:32,737 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:32,737 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 192.168.50.46:8802_true,
+
+2020-04-08 19:14:32,740 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:32,742 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 192.168.50.46:8802_true,
+
+2020-04-08 19:14:32,747 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:32,747 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 19:14:32,748 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:32,748 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 19:14:32,748 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:32,748 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 192.168.50.46:8804_true,
+
+2020-04-08 19:14:32,748 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:32,748 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 192.168.50.46:8804_true,
+
+2020-04-08 19:14:32,749 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:32,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 19:14:32,749 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 19:14:32,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 21:19:27,829 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8802@DEFAULT@DEFAULT_GROUP@@mm-trade, region: unknown, msg: client timeout after 15000, last beat: 1586349740917
+
+2020-04-08 21:19:27,829 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8800@DEFAULT@DEFAULT_GROUP@@mm-gateway, region: unknown, msg: client timeout after 15000, last beat: 1586349738053
+
+2020-04-08 21:19:27,829 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8091@default@DEFAULT_GROUP@@serverAddr, region: unknown, msg: client timeout after 15000, last beat: 1586349738096
+
+2020-04-08 21:19:27,829 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8801@DEFAULT@DEFAULT_GROUP@@mm-user, region: unknown, msg: client timeout after 15000, last beat: 1586349740986
+
+2020-04-08 21:19:27,843 INFO {POS} {IP-DISABLED} valid: 192.168.50.46:8804@DEFAULT@DEFAULT_GROUP@@mm-auth, region: unknown, msg: client timeout after 15000, last beat: 1586349740322
+
+2020-04-08 21:19:27,863 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.50.46:8091:unknown:default_1.0_false_false_default]
+
+2020-04-08 21:19:27,863 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 
+
+2020-04-08 21:19:27,863 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 21:19:27,863 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 
+
+2020-04-08 21:19:27,863 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 21:19:27,863 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 
+
+2020-04-08 21:19:27,863 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 21:19:27,863 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 
+
+2020-04-08 21:19:27,863 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 21:19:27,863 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 
+
+2020-04-08 21:19:27,863 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 21:19:27,863 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 
+
+2020-04-08 21:19:27,863 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 21:19:27,863 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 
+
+2020-04-08 21:19:27,864 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 21:19:27,864 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 21:19:27,864 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-04-08 21:19:27,864 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 
+
+2020-04-08 21:19:28,308 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 21:19:28,308 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 21:19:28,308 INFO DEFAULT_GROUP@@mm-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 21:19:28,308 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-gateway, ips: 192.168.50.46:8800_true,
+
+2020-04-08 21:19:28,338 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.50.46:8091:unknown:default_1.0_true_false_default]
+
+2020-04-08 21:19:28,338 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 192.168.50.46:8091_true,
+
+2020-04-08 21:19:30,570 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 21:19:30,570 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 192.168.50.46:8804_true,
+
+2020-04-08 21:19:30,570 INFO DEFAULT_GROUP@@mm-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8804:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 21:19:30,570 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-auth, ips: 192.168.50.46:8804_true,
+
+2020-04-08 21:19:31,160 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 21:19:31,160 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 192.168.50.46:8802_true,
+
+2020-04-08 21:19:31,160 INFO DEFAULT_GROUP@@mm-trade {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8802:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 21:19:31,160 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-trade, ips: 192.168.50.46:8802_true,
+
+2020-04-08 21:19:31,229 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 21:19:31,229 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+
+2020-04-08 21:19:31,229 INFO DEFAULT_GROUP@@mm-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.50.46:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-04-08 21:19:31,229 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mm-user, ips: 192.168.50.46:8801_true,
+

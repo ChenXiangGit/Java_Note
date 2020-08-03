@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javax.interceptor:javax.interceptor-api:unknown">
+    <CLASSES>
+      <root url="jar://D:/maven/repository/javax/interceptor/javax.interceptor-api/unknown/javax.interceptor-api-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven/repository/javax/interceptor/javax.interceptor-api/unknown/javax.interceptor-api-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/maven/repository/javax/interceptor/javax.interceptor-api/unknown/javax.interceptor-api-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
