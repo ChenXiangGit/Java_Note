@@ -1,4 +1,4 @@
-package com.eshop.microorder.config;
+package com.eshop.microuser.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

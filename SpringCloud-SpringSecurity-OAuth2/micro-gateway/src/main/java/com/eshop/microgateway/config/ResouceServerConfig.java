@@ -29,7 +29,7 @@ public class ResouceServerConfig  {
         @Override
         public void configure(HttpSecurity http) throws Exception {
             http.authorizeRequests()
-                    .antMatchers("/uaa/**").permitAll();
+                    .antMatchers("/auth/**").permitAll();
         }
     }
 
@@ -50,9 +50,25 @@ public class ResouceServerConfig  {
 
         @Override
         public void configure(HttpSecurity http) throws Exception {
-            http
-                    .authorizeRequests()
-                    .antMatchers("/order/**").access("#oauth2.hasScope('ROLE_API')");
+            http.authorizeRequests().antMatchers("/order/**").access("#oauth2.hasScope('ROLE_API')");
+        }
+    }
+
+    @Configuration
+    @EnableResourceServer
+    public class UserServerConfig extends ResourceServerConfigurerAdapter {
+        @Autowired
+        private TokenStore tokenStore;
+
+        @Override
+        public void configure(ResourceServerSecurityConfigurer resources){
+            resources.tokenStore(tokenStore).resourceId(RESOURCE_ID)
+                    .stateless(true);
+        }
+
+        @Override
+        public void configure(HttpSecurity http) throws Exception {
+            http.authorizeRequests().antMatchers("/user/**").access("#oauth2.hasScope('ROLE_API')");
         }
     }
 
