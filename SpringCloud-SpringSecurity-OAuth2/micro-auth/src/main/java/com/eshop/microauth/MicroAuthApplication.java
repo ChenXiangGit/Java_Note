@@ -7,8 +7,8 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableHystrix
+//@EnableDiscoveryClient
+//@EnableHystrix
 //@EnableFeignClients(basePackages = {"cn.fllday.security.distruibuted.uaa"})
 public class MicroAuthApplication {
 

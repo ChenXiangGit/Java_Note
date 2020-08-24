@@ -3,6 +3,7 @@ package com.eshop.microorder.common;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.ObjectUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
@@ -35,6 +36,7 @@ public class EncryptUtil {
     }
 
     public static String  decodeUTF8StringBase64(String str){
+        if (ObjectUtils.isEmpty(str)) return "";
         String decoded = null;
         byte[] bytes = Base64.getDecoder().decode(str);
         try {

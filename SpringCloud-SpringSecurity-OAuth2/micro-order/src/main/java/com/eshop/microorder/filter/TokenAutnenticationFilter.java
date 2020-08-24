@@ -5,10 +5,10 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.eshop.microorder.common.EncryptUtil;
 import com.eshop.microorder.model.UserDTO;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.authority.AuthorityUtils;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
+//import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+//import org.springframework.security.core.authority.AuthorityUtils;
+//import org.springframework.security.core.context.SecurityContextHolder;
+//import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
@@ -34,16 +34,14 @@ public class TokenAutnenticationFilter extends OncePerRequestFilter {
             userDTO.setUsername(principal);
 //            UserDTO userDTO = JSON.parseObject(jsonObject.getString("principal"), UserDTO.class);
             //用户权限
-            JSONArray authoritiesArray = jsonObject.getJSONArray("authorities");
-            String[] authorities = authoritiesArray.toArray(new String[authoritiesArray.size()]);
+//            JSONArray authoritiesArray = jsonObject.getJSONArray("authorities");
+//            String[] authorities = authoritiesArray.toArray(new String[authoritiesArray.size()]);
             //将用户信息和权限填充 到用户身份token对象中
-            UsernamePasswordAuthenticationToken authenticationToken
-                    = new UsernamePasswordAuthenticationToken(userDTO,null, AuthorityUtils.createAuthorityList(authorities));
-            authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
-            //将authenticationToken填充到安全上下文
-            SecurityContextHolder.getContext().setAuthentication(authenticationToken);
-
-
+//            UsernamePasswordAuthenticationToken authenticationToken
+//                    = new UsernamePasswordAuthenticationToken(userDTO,null, AuthorityUtils.createAuthorityList(authorities));
+//            authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
+//            //将authenticationToken填充到安全上下文
+//            SecurityContextHolder.getContext().setAuthentication(authenticationToken);
         }
         filterChain.doFilter(httpServletRequest,httpServletResponse);
     }

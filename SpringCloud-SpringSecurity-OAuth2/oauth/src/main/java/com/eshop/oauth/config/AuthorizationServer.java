@@ -48,18 +48,12 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory() // 使用内存存储
             .withClient("c1") // client_id
-            // 客户端密钥
-            .secret(new BCryptPasswordEncoder().encode("secret"))
-            // 资源列表
-            .resourceIds("res1")
-            // 授权方式
-            .authorizedGrantTypes("authorization_code","password","client_credentials","implicit","refresh_token")
-            // 允许授权的范围
-            .scopes("all")
-            //
+            .secret(new BCryptPasswordEncoder().encode("secret"))// 客户端密钥
+            .resourceIds("res1")// 资源列表
+            .authorizedGrantTypes("authorization_code","password","client_credentials","implicit","refresh_token")// 授权方式
+            .scopes("all")// 允许授权的范围
             .autoApprove(false)  // false 跳转到授权页面
-            // 加上验证回调地址
-            .redirectUris("http://www.baidu.com");
+            .redirectUris("http://www.baidu.com");// 加上验证回调地址
 
     }
 
@@ -94,10 +88,8 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
         endpoints
-                // 密码管理模式
-                .authenticationManager(authenticationManager)
-                // 授权码模式
-                .authorizationCodeServices(authorizationCodeServices)
+                .authenticationManager(authenticationManager)// 密码管理模式
+                .authorizationCodeServices(authorizationCodeServices)// 授权码模式
                 .tokenServices(tokenServices()) // 令牌管理服务
                 .allowedTokenEndpointRequestMethods(HttpMethod.POST); // 允许post提交
     }
@@ -113,7 +105,6 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
         security.tokenKeyAccess("permitAll()")         // /oauth/token_key  公开
                 .checkTokenAccess("permitAll()")       // /auth/check_token  检测令牌
                 .allowFormAuthenticationForClients();  // 允许通过表单认证，申请令牌
-
         super.configure(security);
     }
 }
